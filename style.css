@@ -20,6 +20,16 @@ h1{
     align-items: center;
 }
 
+#play, #buy{
+    width:100%;
+    font-size: 40px;
+    display: block;
+    border: 2px solid rgb(82, 75, 75);
+    border-radius: 20px;
+    margin:10px;
+    box-shadow: 3px 3px rgb(99, 96, 96);
+}
+
 .display-client-tickets{
 width:60%;
 }
@@ -33,23 +43,28 @@ h2{
     border-radius:15px;    
 }
 
-#display-cells-container{
-    
-    width:50%;
+#cells-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
     height:auto;
 }
 .cell{
     font-size: 25px;
     background-color:black;
-    min-height: 40px;
-    padding:20px;
-    margin: 5px;
+    min-height: 30px;
+    padding:5px;
+    margin: 3px;
     display:inline-block;
     background-color:rgb(58, 55, 55);
     color:white;
-    width:50px;
+    width:30px;
     text-align: center;
     border: 1px solid rgb(150, 142, 142);
     border-radius: 5px;
 }
 
+#play:hover, #buy:hover {
+background-color: rgb(199, 185, 185);
+}
