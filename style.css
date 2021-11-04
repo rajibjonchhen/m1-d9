@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(2, 2, 51);
+}
+
+.container{
+    display:flex;
+}
+
+h1{
+    font-size: 3rem;
+    width:100%;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    padding:10px;
+    background-color: rgb(190, 13, 13);
+}
+.display-board{
+    width:40%;
+    align-items: center;
+}
+
+.display-client-tickets{
+width:60%;
+}
+h2{
+    font-size: 2rem;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    padding:10px;
+    border: 2px solid red;
+    border-radius:15px;    
+}
+
+#display-cells-container{
+    
+    width:50%;
+    height:auto;
+}
+.cell{
+    font-size: 25px;
+    background-color:black;
+    min-height: 40px;
+    padding:20px;
+    margin: 5px;
+    display:inline-block;
+    background-color:rgb(58, 55, 55);
+    color:white;
+    width:50px;
+    text-align: center;
+    border: 1px solid rgb(150, 142, 142);
+    border-radius: 5px;
+}
+

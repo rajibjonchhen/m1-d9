@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- BINGO CHALLENGE!
+Create programmatically (using JS) a bingo board with 76 cells, numbered from 1 to 76.
+
+Create a button to randomize a number from 1 to 76. The cell with same number should be highlighted in some way on the bingo board.
+ 
+EXTRA: 
+
+- Make sure to always select a new number (eg. avoid randoming the number 10 three times).
+
+- Create a user board with 24 randomized numbers that highlights as the main board does.
+
+- Let the user choose how many user boards he's willing to play with and generate them before starting to play.
+
+  -->
+  <h1>***** Bingo *****</h1>
+<div class="container">
+
+
+    <div class="display-board">
+        <h2>The Board </h2>
+        <div id="display-cells-container">
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+            <div class="cell">4</div>
+            <div class="cell">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell">8</div>
+        </div>
+    </div>
+
+    <div class = "display-client-tickets">
+        <h2>Your Bingo Tickets</h2>
+        <div id="display-user-board">
+            <div class="ticket"></div>
+        </div>
+
+    </div>
+</div>
+
+        <script src="script.js"></script>
+</body>
+</html>
