@@ -35,20 +35,30 @@ const displayTicket = function (){
 displayTicket()
 
 const play = function(){
-    let getNumber = document.getElementsByClassName("cell")
+    let getNumber = getBoard()
     let selectedNumber = Math.floor(Math.random()*76)
     for(let i = 1; i <= 76; i++){
         if(getNumber[i].innerText == selectedNumber){ 
-        getNumber[i].style.backgroundColor = "red"
-        
+            getNumber[i].style.backgroundColor = "red"            
         }
 
     }   
 }
 play()
-
-
 /*
+
+
+const checkTicket = function(){
+    let getTicketNumber = getTicket()
+    let selectedNumber = Math.floor(Math.random()*76)
+    for(let j = 1; j<= 24; j++){
+        if(50== getTicketNumber[j].innerText)
+       getTicketNumber[j].style.backgroundColor = "red"
+    }
+
+}
+
+checkTicket()
 
 const getTickets = function(n){
     let ticket = []
